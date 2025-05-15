@@ -16,7 +16,6 @@ from transformers import get_linear_schedule_with_warmup
 from transformers import BertConfig, BertTokenizer
 from parameter import parse_args
 from torch.utils.data import random_split
-from model.model_nopenal import bertCSRModel
 from model.model_nopenal import bertCSRModel_nosem
 logger = logging.getLogger(__name__)
 import os
