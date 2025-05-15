@@ -26,7 +26,7 @@ app.add_middleware(
 # Neo4j 配置
 uri = "bolt://localhost:7687"
 user = "neo4j"
-password = "1195955206"
+password = ""
 driver = GraphDatabase.driver(uri, auth=(user, password))
 @app.get("/entity-graph")
 async def entity_graph(name: str):
